@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    height: 200px;
+    width: 300px;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #0004;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 15px;
+    border: 1px solid #aaa;
+    margin-bottom: 12px;
+}
